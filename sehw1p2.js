@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var start = new Date();
 var fs = require('fs');
-var outfile = "sehw1.txt";
+var outfile = "sehw1p2.txt";
 
 var out;
 
