@@ -3,7 +3,7 @@ var start = new Date();
 var fs = require('fs');
 var outfile = "sehw1p2.txt";
 
-var out;
+var out = "2";
 
 for (var i = 2; i < 500; i++)
 {
@@ -19,11 +19,11 @@ for (var i = 2; i < 500; i++)
 	}
 	if (prime == 'yes')
 	{
-		out += i + ",";
+		out += "," + i;
 	}
 }							
 
 fs.writeFileSync(outfile, out);
 var end = new Date() - start;
-console.log("Script took " + end);
+console.log("Script took " + end + " sec.");
 
